@@ -22,55 +22,55 @@ function Skills() {
         <div className={`app__proficiencyBarFill ${show && "bar-80"}`}>
           <div className="app__proficiencyBarTag">C++</div>
         </div>
-        <span className="app__span">80%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>80%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-80"}`}>
           <div className="app__proficiencyBarTag">C</div>
         </div>
-        <span className="app__span">80%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>80%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-60"}`}>
           <div className="app__proficiencyBarTag">Python</div>
         </div>
-        <span className="app__span">60%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>60%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-50"}`}>
           <div className="app__proficiencyBarTag">Java</div>
         </div>
-        <span className="app__span">50%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>50%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-60"}`}>
           <div className="app__proficiencyBarTag">HTML</div>
         </div>
-        <span className="app__span">60%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>60%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-60"}`}>
           <div className="app__proficiencyBarTag">CSS</div>
         </div>
-        <span className="app__span">60%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>60%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-50"}`}>
           <div className="app__proficiencyBarTag">Javascript</div>
         </div>
-        <span className="app__span">50%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>50%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-50"}`}>
-          <div className="app__proficiencyBarTag">React-JS</div>
+          <div className="app__proficiencyBarTag">React</div>
         </div>
-        <span className="app__span">50%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>50%</span>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-65"}`}>
           <div className="app__proficiencyBarTag">Illustrator</div>
         </div>
-        <span className="app__span">65%</span>
+        <span className={`app__span ${show && "app__spanAfter"}`}>65%</span>
       </div>
     </div>
   );

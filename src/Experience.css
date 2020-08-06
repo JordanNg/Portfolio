@@ -69,26 +69,26 @@ h1 span {
 .timeline-content {
   width: 95%;
   padding: 0 25px;
-  color: #666;
+  color: black;
 }
 
 .timeline-content h3 {
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 25pt;
+  font-size: 20pt;
   font-weight: 400;
 }
 
 .timeline-content span {
-  font-size: 18pt;
-  color: #a4a4a4;
+  font-size: 17pt;
+  color: #666;
 }
 
 .timeline-content p {
-  font-size: 16pt;
+  font-size: 15pt;
   line-height: 1.5em;
   word-spacing: 1px;
-  color: #888;
+  color: #252a35;
 }
 
 @media screen and (max-width: 800px) {

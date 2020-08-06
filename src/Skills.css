@@ -1,5 +1,6 @@
 .app__proficiency {
   width: 800px;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -76,14 +77,39 @@
 
 .app__span {
   padding: 8px;
+  opacity: 0%;
+  color: #666;
+}
+
+.app__spanAfter {
+  padding: 8px;
+  opacity: 100%;
+  animation: fadeIn 3s ease-in-out;
 }
 
 @media screen and (max-width: 800px) {
   .app__proficiency {
     /*margin-left: 16px;*/
+    width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 40px;
+
     padding-left: 10px;
     padding-right: 10px;
-    width: 95%;
+
+    object-fit: contain;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
   }
 }
 
