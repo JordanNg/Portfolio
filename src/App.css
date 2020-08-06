@@ -47,7 +47,7 @@
 }
 
 .highlight {
-  color: #e31b6d;
+  color: #d73f0c;
   font-family: "Raleway";
   font-weight: 600;
 }
@@ -56,10 +56,10 @@
   color: #252a35;
   font-family: "Raleway";
   font-size: 36pt;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   padding: 40px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .projects_titleSlide {
@@ -79,7 +79,7 @@
 }
 
 .aboutme__container {
-  width: 50%;
+  width: 95%;
   max-width: 600px;
 
   margin-top: 0;
@@ -91,9 +91,21 @@
   font-family: "Raleway";
   font-size: 16pt;
   font-weight: 200;
+  word-spacing: 1px;
+  color: #888;
 }
 
 .aboutme__image {
   width: 600px;
   object-fit: contain;
+}
+
+@media screen and (max-width: 800px) {
+  .aboutme__container {
+    width: 95%;
+  }
+
+  .app__canvasContainerText {
+    font-size: 25pt;
+  }
 }

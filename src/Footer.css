@@ -1,0 +1,117 @@
+.footer {
+  color: white;
+}
+
+.footer__container {
+  height: auto;
+  width: 100vw;
+  background-color: #252b35;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.footer__content {
+  margin-top: auto;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 80%;
+  max-width: 800px;
+}
+
+.footer__contactField {
+  cursor: text;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "Raleway";
+  font-size: 12pt;
+}
+
+.footer__contactFieldLarge {
+  cursor: text;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  height: 200px;
+  margin-bottom: 10px;
+  font-family: "Raleway";
+  font-size: 12pt;
+
+  margin-bottom: 40px;
+}
+
+.footer__name {
+  color: white;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.footer__statement {
+  font-family: "Raleway";
+  font-size: 15pt;
+  font-weight: 200;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  color: #95ccaa;
+}
+
+.footer__button {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-top: 0.5rem;
+  background-color: #252c35;
+  padding-bottom: 0.5rem;
+  font-family: "Raleway";
+  font-size: 12pt;
+}
+
+.logo__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo__image {
+  height: 40px;
+  object-fit: contain;
+  padding-right: 5px;
+}

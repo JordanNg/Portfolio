@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import Skills from "./Skills";
+import Footer from "./Footer";
+
 import profilePic from "./images/ProfilePicture.png";
+import Experience from "./Experience";
 
 function App() {
   /* When the page loads scroll to the top */
@@ -25,6 +28,7 @@ function App() {
               <img
                 className="app__canvasTriangle"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/White_triangle_inverted.svg/1200px-White_triangle_inverted.svg.png"
+                alt="triangle"
               />
             </div>
           </div>
@@ -32,6 +36,7 @@ function App() {
       </section>
 
       {/* About Me */}
+
       <section className="app__aboutme">
         {/* Projects title */}
         <div className="app__title">About Me</div>
@@ -50,26 +55,22 @@ function App() {
 
       {/* Language comfort bars */}
       <Skills />
-
       {/* Projects */}
-      <section className="app__projects">
-        {/* Projects title */}
-        <div className="app__title">Projects</div>
-      </section>
 
       {/* Resume */}
-      <section className="app__resume">
-        {/* Projects title */}
-        <div className="app__title">Resume</div>
-      </section>
 
       {/* Experience */}
+      <section className="app__experience">
+        <div className="app__title">Experience and Education</div>
+      </section>
+      <Experience />
 
       {/* Relevant Technologies */}
 
       {/* Etc.. */}
 
       {/* Footer */}
+      <Footer />
     </div>
   );
 }

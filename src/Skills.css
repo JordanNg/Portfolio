@@ -5,6 +5,9 @@
   margin-top: 0;
   margin-bottom: 40px;
 
+  padding-left: 10px;
+  padding-right: 10px;
+
   object-fit: contain;
 }
 
@@ -26,16 +29,14 @@
 }
 
 .app__proficiencyBarFill {
-  width: 80%;
-  background-color: #00a1a6;
-
+  background-color: #008a6a;
   display: flex;
-  justify-content: space-between;
 }
 
 .app__proficiencyBarTag {
   width: 120px;
-  background-color: #0cc1c9;
+  min-width: 120px;
+  background-color: #0dd6a8;
 
   display: flex;
   justify-content: center;
@@ -48,6 +49,82 @@
   font-size: 14pt;
 }
 
+.bar-80 {
+  animation: bar-80animation 3s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.bar-65 {
+  animation: bar-65animation 3s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.bar-60 {
+  animation: bar-60animation 3s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.bar-50 {
+  animation: bar-50animation 3s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.bar-40 {
+  animation: bar-40animation 3s ease-in-out;
+  animation-fill-mode: both;
+}
+
 .app__span {
   padding: 8px;
+}
+
+@media screen and (max-width: 800px) {
+  .app__proficiency {
+    /*margin-left: 16px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+  }
+}
+
+@keyframes bar-80animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes bar-65animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes bar-60animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes bar-50animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes bar-40animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
 }
