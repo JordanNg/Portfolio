@@ -31,3 +31,10 @@
   text-align: center;
   word-spacing: 2px;
 }
+
+.project__techContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}

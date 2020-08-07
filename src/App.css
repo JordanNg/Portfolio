@@ -116,6 +116,30 @@
   width: 80%;
 }
 
+.aboutme__button {
+  width: auto;
+  cursor: pointer;
+  color: white;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0dd6a8;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  background-color: #0dd6a8;
+  font-family: "Raleway";
+  font-size: 14pt;
+
+  padding: 15px;
+
+  margin-top: 20px;
+}
+
+.download__image {
+  width: 20px;
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 800px) {
   .aboutme__container {
     width: 95%;
