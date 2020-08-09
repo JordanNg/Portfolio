@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Projects.css";
 import Tech from "./Tech";
+import axios from "./axios";
 
-function Projects({ projectTitle, description, techArray }) {
+function Projects({ projectTitle, description, techArray, fetchUrl }) {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    // Async task with internal function
+    async function fetchData() {
+      // Whenever you use an outside var{ vvv } you must put in the brackets[]
+      const request = await axios.get(fetchUrl);
+      setProjects(request.data);
+
+      // Console log for debugging
+      console.log(request.data);
+      return request;
+    }
+    fetchData();
+  }, [fetchUrl]);
+
   return (
     <div className="projects__container">
       {/* Title */}

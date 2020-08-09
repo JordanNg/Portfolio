@@ -3,12 +3,14 @@ import "./App.css";
 import Skills from "./Skills";
 import Footer from "./Footer";
 import Projects from "./Projects";
+import Conway from "./Conway";
 
 import profilePic from "./images/ProfilePicture.png";
 import Experience from "./Experience";
 import ReactLogo from "./Logos/Tech-Logos/ReactLogo.png";
 import Resume from "./images/ResumeJordan.pdf";
 import arrowDown from "./images/arrow-204-128.png";
+import Request from "./request";
 
 function App() {
   /* When the page loads scroll to the top */
@@ -29,12 +31,8 @@ function App() {
                 <br />
                 Aspiring Software Developer.
               </div>
-              <img
-                className="app__canvasTriangle"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/White_triangle_inverted.svg/1200px-White_triangle_inverted.svg.png"
-                alt="triangle"
-              />
             </div>
+            <Conway className="app__conway" />
           </div>
         </div>
       </section>
@@ -91,6 +89,15 @@ function App() {
         <Projects
           projectTitle="Netflix Clone"
           description="A clone of Netflix's web application. Implemented using React and hosted with Firebase. Movies are pulled via The Movie Database's API."
+          source={ReactLogo}
+          techArray={[
+            "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            "https://4.bp.blogspot.com/-rtNRVM3aIvI/XJX_U07Z-II/AAAAAAAAJXY/YpdOo490FTgdKOxM4qDG-2-EzcNFAWkKACK4BGAYYCw/s1600/logo%2Bfirebase%2Bicon.png",
+          ]}
+        />
+        <Projects
+          projectTitle="Portfolio"
+          description="This portfolio's code! I used this portfolio as a way to learn React, Firebase, and other technologies. It includes a small grid of Conway's Game of Life which starts with a random board each time."
           source={ReactLogo}
           techArray={[
             "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
