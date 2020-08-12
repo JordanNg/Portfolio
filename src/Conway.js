@@ -3,7 +3,7 @@ import produce from "immer";
 
 function Game() {
   const numRows = 20;
-  const numCols = 60;
+  const numCols = 80;
 
   const operations = [
     [0, 1],

@@ -1,0 +1,29 @@
+.navigation {
+  height: 100px;
+  width: 100%;
+  padding: 40px;
+  border-top: solid 3px #0dd6a8;
+  background-color: #252a35;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation__noStick {
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+
+.navigation__stick {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navigation__links {
+  color: white;
+  font-family: "Raleway";
+  font-size: 15pt;
+  font-weight: 400;
+  text-decoration: none;
+}

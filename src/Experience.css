@@ -63,7 +63,7 @@ h1 span {
   border: 2px solid #f5f7fa;
   background: #0dd6a8;
   margin-top: 10px;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .timeline-content {

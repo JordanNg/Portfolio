@@ -103,6 +103,15 @@
   font-size: 12pt;
 }
 
+.footer__toTop {
+  margin-top: 40px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: solid 2px white;
+  border-radius: 0.2vw;
+}
+
 .logo__container {
   display: flex;
   justify-content: center;

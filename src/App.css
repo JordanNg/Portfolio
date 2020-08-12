@@ -49,7 +49,7 @@
 }
 
 .highlight {
-  color: #d73f0c;
+  color: #f53402;
   font-family: "Raleway";
   font-weight: 600;
 }
@@ -67,6 +67,11 @@
 .projects_titleSlide {
   animation-duration: 2s;
   animation-name: slidein;
+}
+
+.app__navigationCont {
+  height: 100px;
+  width: 100%;
 }
 
 @keyframes slidein {
@@ -140,6 +145,19 @@
 .download__image {
   width: 20px;
   margin-right: 20px;
+}
+
+.toTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 15pt;
+  text-decoration: none;
+  color: #0dd6a8;
 }
 
 @media screen and (max-width: 800px) {
