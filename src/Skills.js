@@ -22,7 +22,7 @@ function Skills() {
         <div className={`app__proficiencyBarFill ${show && "bar-80"}`}>
           <div className="app__proficiencyBarTag">C++</div>
         </div>
-        <span className={`app__span ${show && "app__spanAfter"}`}>80%</span>
+        <div className={`app__span ${show && "app__spanAfter"}`}>80%</div>
       </div>
       <div className="app__proficiencyBar">
         <div className={`app__proficiencyBarFill ${show && "bar-80"}`}>

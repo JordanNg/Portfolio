@@ -77,14 +77,16 @@
 
 .app__span {
   padding: 8px;
+  font-size: 12pt;
   opacity: 0%;
   color: #666;
 }
 
 .app__spanAfter {
   padding: 8px;
-  opacity: 100%;
+  opacity: 1;
   animation: fadeIn 3s ease-in-out;
+  color: #666;
 }
 
 @media screen and (max-width: 800px) {
@@ -109,7 +111,7 @@
     opacity: 0%;
   }
   100% {
-    opacity: 100%;
+    opacity: 1;
   }
 }
 

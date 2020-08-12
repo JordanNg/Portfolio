@@ -16,8 +16,6 @@ function Navigation() {
     };
   }, []);
 
-  console.log(isSticky);
-
   return (
     <div>
       <Navbar
