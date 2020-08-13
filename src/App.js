@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Conway from "./Conway";
 import Navigation from "./Navigation";
+import Header from "./Header";
 
 import profilePic from "./images/ProfilePicture.png";
 import ArrowDropUpIcon from "@material-ui/icons/ArrowDropUp";
@@ -23,25 +24,7 @@ function App() {
   return (
     <div className="app">
       <a id="home"></a>
-      {/* Header -> Intro + icon + name */}
-      <section className="app__header">
-        <div className="app__canvas">
-          <div className="app__canvasBackground">
-            <div className="app__canvasContainer">
-              <div className="app__canvasContainerText">
-                Hello World! My name is{" "}
-                <span className="highlight">Jordan Ng</span>.
-                <br />
-                An aspiring Software Developer.
-              </div>
-            </div>
-            <Conway className="app__conway" />
-          </div>
-        </div>
-        <div className="app__navigationCont">
-          <Navigation />
-        </div>
-      </section>
+      <Header />
 
       {/* About Me */}
       <a id="aboutme"></a>
@@ -54,11 +37,12 @@ function App() {
         <div className="aboutme__container">
           <img className="aboutme__image" src={profilePic} alt="Jordan Ng" />
           <div className="aboutme__description">
-            I have a bachelors in Computer Science and I am currently located in
-            Honolulu Hawaii. I recently graduated from Oregon State University
-            and have been seeking employment as a software engineer/developer. I
-            have a passion for clean looking UI, and I am always looking for new
-            ways to improve upon my skills.
+            Hello World! My name is Jordan Ng and I recently graduated from
+            Oregon State University with a bachelors in Computer Science. I am
+            currently located in Honolulu Hawaii and have been seeking
+            employment as a software engineer/developer. I have a passion for
+            clean UI, and I am always looking for new ways to improve upon my
+            skills.
           </div>
           <a href={Resume}>
             <button className="aboutme__button">

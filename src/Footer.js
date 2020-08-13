@@ -52,8 +52,15 @@ export default class extends React.Component {
         </form>
 
         <div className="logo__container">
-          <img className="logo__image" src={linkedin} alt="linkedin__image" />
-          <img className="logo__image" src={mark} alt="mark__image" />
+          <a
+            className="logo__image"
+            href="https://www.linkedin.com/in/jordan-ng-639218139/"
+          >
+            <img className="logo__image" src={linkedin} alt="linkedin__image" />
+          </a>
+          <a className="logo__image" href="https://github.com/JordanNg">
+            <img className="logo__image" src={mark} alt="mark__image" />
+          </a>
         </div>
       </div>
     );

@@ -12,7 +12,7 @@ function Experience() {
           <p>
             At 'Iolani I got my first introduction to programming. I took a iPad
             app development course where I learned how to use programs like
-            xCode and Adobe Illustrator as well as Github.
+            xCode, Github, and Adobe Illustrator.
           </p>
         </div>
       </div>
@@ -23,11 +23,12 @@ function Experience() {
           <h3>Oregon State University</h3>
           <span>Bachelors: Computer Science</span>
           <p>
-            At Oregon State University I was able to find a major that I had a
-            passion for. I initially entered college as a mechanical engineer
-            but since highschool I had always had an itch for programming. I
-            decided to switch my major to Computer Science and I am now pursuing
-            my passion.{" "}
+            At Oregon State University, after a quick change in majors I was
+            back to programming. I learned more about what Computer Science had
+            to offer and was delighted with the change I had made. I enjoyed
+            classes like Analysis of Algorithms, AI, Data Structures, Computer
+            Architecture, Software Engineering, Mobile Software Development, and
+            Web Development.
           </p>
         </div>
       </div>
@@ -40,8 +41,8 @@ function Experience() {
           <p>
             At Oregon State University I had the opportunity to be an
             undergraduate physics TA. It was a new experience working with
-            students who were about the same age as me. At this job I learned
-            valuable skills like how to communicate and lead others. I was in
+            students who were about the same age as me and at this job I learned
+            valuable skills like communicating and leading my peers. I was in
             charge of facilitating cooperation and aiding groups of students in
             completing difficult problems and tasks.
           </p>
@@ -54,7 +55,7 @@ function Experience() {
           <h3>Hokulani IT Volunteer</h3>
           <span>7/2020</span>
           <p>
-            I am currently volunteering as IT support at Hokulani Elementary
+            Currently I am volunteering as IT support at Hokulani Elementary
             school. While looking for a job as a software developer, I am using
             my spare time to help teachers and other staff members prepare for
             the upcoming school year. Amidst the COVID-19 pandemic, educators
