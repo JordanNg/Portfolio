@@ -1,0 +1,70 @@
+.aboutme__container {
+  width: 95%;
+  max-width: 600px;
+
+  margin-top: 0;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.aboutme__description {
+  font-family: "Raleway";
+  font-size: 15pt;
+  font-weight: 200;
+  word-spacing: 1px;
+  color: #252a35;
+}
+
+.aboutme__image {
+  width: 600px;
+  object-fit: contain;
+}
+
+.about__skills__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutme__button {
+  width: auto;
+  cursor: pointer;
+  color: white;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0dd6a8;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  background-color: #0dd6a8;
+  font-family: "Raleway";
+  font-size: 14pt;
+
+  padding: 15px;
+
+  margin-top: 40px;
+}
+
+.download__image {
+  width: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .aboutme__container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .about__skills__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme__container {
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+}

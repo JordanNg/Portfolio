@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Conway from "./Conway";
 import Navigation from "./Navigation";
 import Header from "./Header";
+import AboutMe from "./AboutMe";
 
 import profilePic from "./images/ProfilePicture.png";
 import ArrowDropUpIcon from "@material-ui/icons/ArrowDropUp";
@@ -29,33 +30,12 @@ function App() {
       {/* About Me */}
       <a id="aboutme"></a>
       <section className="app__aboutme">
-        {/* Projects title */}
         <div className="app__title">About Me</div>
       </section>
+      <AboutMe />
 
-      <div className="about__skills__container">
-        <div className="aboutme__container">
-          <img className="aboutme__image" src={profilePic} alt="Jordan Ng" />
-          <div className="aboutme__description">
-            Hello World! My name is Jordan Ng and I recently graduated from
-            Oregon State University with a bachelors in Computer Science. I am
-            currently located in Honolulu Hawaii and have been seeking
-            employment as a software engineer/developer. I have a passion for
-            clean UI, and I am always looking for new ways to improve upon my
-            skills.
-          </div>
-          <a href={Resume}>
-            <button className="aboutme__button">
-              <img className="download__image" src={arrowDown}></img>
-              Download Resume
-            </button>
-          </a>
-        </div>
-
-        {/* Language comfort bars */}
-        <Skills />
-      </div>
       {/* Projects */}
+      <a id="projects"></a>
       <section className="app__experience">
         <div className="app__title">Projects/Work</div>
       </section>
@@ -126,8 +106,6 @@ function App() {
           ]}
         />
       </div>
-
-      {/* Resume */}
 
       {/* Experience */}
       <a id="education"></a>

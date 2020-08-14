@@ -30,8 +30,11 @@ function Navigation() {
         <Nav.Link href="#aboutme" className="navigation__links">
           About Me
         </Nav.Link>
+        <Nav.Link href="#projects" className="navigation__links">
+          Projects
+        </Nav.Link>
         <Nav.Link href="#education" className="navigation__links">
-          Education & Experience
+          {"Education & Experience"}
         </Nav.Link>
         <Nav.Link href="#contact" className="navigation__links">
           Contact Me
